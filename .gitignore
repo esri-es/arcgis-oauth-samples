@@ -2,3 +2,4 @@ deprecated
 config.json
 credentials.json
 nodejs/sessions
+nodejs/node_modules
