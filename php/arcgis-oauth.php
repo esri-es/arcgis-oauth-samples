@@ -35,7 +35,7 @@ class Authenticator {
       return 'https://www.arcgis.com/sharing/rest/oauth2/authorize?'.$qs;
     }
 
-    function getTokens($code){
+    function getRefreshToken($code){
       $url = 'https://www.arcgis.com/sharing/rest/oauth2/token';
       $data = array(
         'client_id' => $this->config['client_id'],

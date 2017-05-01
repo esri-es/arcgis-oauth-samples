@@ -1,0 +1,50 @@
+<p>
+  <a href="/logout">Salir</a>
+</p>
+<p>hola <%= req.session.credentials.username %></p>
+
+<form id="userInfo">
+  <input type="submit" value="Get user info">
+</form>
+<pre id="userInfoData"></pre>
+
+<form id="items">
+  <input type="number" value="1" id="numResults">
+  <input type="submit" value="Get items">
+</form>
+<pre id="itemsData"></pre>
+
+<form id="featureService">
+  <input type="text" id="serviceUrl" value="http://services7.arcgis.com/GeJrfsesJH0iWv80/arcgis/rest/services/Datos enriquecidos/FeatureServer">
+  <input type="submit" value="Get feature service info">
+</form>
+<pre id="featureServiceInfo"></pre>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$("#userInfo").submit(function(e){
+  e.preventDefault();
+  $.get( "/api/community/users/<%= req.session.credentials.username %>", function( data ) {
+    $( "#userInfoData" ).html("User info: " + JSON.stringify(data, null, 2) );
+  });
+});
+
+
+$("#items").submit(function(e){
+  e.preventDefault();
+  var numResults = $('#numResults').val();
+  $.get( "/api/content/users/<%= req.session.credentials.username %>?f=json&num="+numResults, function( data ) {
+    $( "#itemsData" ).html("User items: " + JSON.stringify(data, null, 2) );
+  });
+});
+
+$("#featureService").submit(function(e){
+  e.preventDefault();
+  var serviceUrl = $('#serviceUrl').val();
+  $.get( "/api/content/users/<%= req.session.credentials.username %>/featureService/?f=json&url="+serviceUrl, function( data ) {
+    $( "#featureServiceInfo" ).html("User items: " + JSON.stringify(data, null, 2) );
+  });
+});
+
+</script>

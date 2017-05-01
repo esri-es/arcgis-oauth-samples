@@ -7,7 +7,7 @@
     if(!isset($_GET['code'])){
       echo '<a href="'.$oAuth->getCodeUrl().'">Login</a>';
     }else{
-      $oAuth->getTokens($_GET['code']);
+      $oAuth->getRefreshToken($_GET['code']);
     }
   }
 ?>
