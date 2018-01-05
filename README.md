@@ -49,3 +49,8 @@ in the URL.
 * access_token => a valid token
 * expires_in => when the access_token expires
 * username => account owner username
+
+# Documentation
+
+* [ArcGIS Security and Authentication](https://developers.arcgis.com/documentation/core-concepts/security-and-authentication/)
+* [Demystifying oAuth and ArcGIS](http://blog.davebouwman.com/2017/08/27/authentication-with-arcgis/)
