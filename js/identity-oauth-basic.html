@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"
+  />
+  <title>Access ArcGIS Online items using OAuthentication - 4.6</title>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/4.6/esri/css/main.css">
+  <link rel="stylesheet" href="identify-oauth-basic.css">
+
+  <script src="https://js.arcgis.com/4.6/"></script>
+  <script src="identify-oauth-basic.js"></script>
+</head>
+
+<body>
+  <div id="anonymousPanel" style="display: none; padding: 5px; text-align: center;">
+    <span id="sign-in" class="action">Sign In</span> and view your ArcGIS Online
+    items.
+  </div>
+
+  <div id="personalizedPanel" style="display: none; padding: 5px; text-align: center;">
+    Welcome <span id="userId" style="font-weight: bold;"></span> &nbsp;-&nbsp;
+    <span id="sign-out" class="action">Sign Out</span>
+  </div>
+
+  <div id="itemGallery" class="esri-item-gallery" style="width: 100%;"></div>
+</body>
+
+</html>
