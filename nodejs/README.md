@@ -9,7 +9,7 @@ Para entender el proceso que sigue esta aplicación puedes ver esta explicación
 > **Requisitos previos:**
 > Para poder seguir estos pasos necesitarás tener instalado: [git](https://git-scm.com/downloads) y [nodejs](https://nodejs.org/en/download/).
 
-**Paso 1:** Abre tu terminal<sup>[^1]</sup> y escribe:
+**Paso 1:** Abre tu terminal<sup>[1](#1)</sup> y escribe:
 
 `git clone git@github.com:esri-es/arcgis-oauth-samples.git && cd arcgis-oauth-samples/nodejs && npm install`
 
@@ -29,7 +29,7 @@ Para entender el proceso que sigue esta aplicación puedes ver esta explicación
 
 
 
-[^1]: [Git Bash](https://www.youtube.com/watch?v=rWboGsc6CqI) (Windows), [Terminal](https://www.youtube.com/watch?v=zw7Nd67_aFw) (Mac), [Terminal](https://www.youtube.com/watch?v=7Kvgbu61jFg) (Linux)
+<name id="1">1</name>]: [Git Bash](https://www.youtube.com/watch?v=rWboGsc6CqI) (Windows), [Terminal](https://www.youtube.com/watch?v=zw7Nd67_aFw) (Mac), [Terminal](https://www.youtube.com/watch?v=7Kvgbu61jFg) (Linux)
 
 ## Dudas
 
