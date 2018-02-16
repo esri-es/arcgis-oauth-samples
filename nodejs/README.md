@@ -29,7 +29,7 @@ Para entender el proceso que sigue esta aplicación puedes ver esta explicación
 
 
 
-<name id="1">1</name>]: [Git Bash](https://www.youtube.com/watch?v=rWboGsc6CqI) (Windows), [Terminal](https://www.youtube.com/watch?v=zw7Nd67_aFw) (Mac), [Terminal](https://www.youtube.com/watch?v=7Kvgbu61jFg) (Linux)
+<span id="1">1</span>: [Git Bash](https://www.youtube.com/watch?v=rWboGsc6CqI) (Windows), [Terminal](https://www.youtube.com/watch?v=zw7Nd67_aFw) (Mac), [Terminal](https://www.youtube.com/watch?v=7Kvgbu61jFg) (Linux)
 
 ## Dudas
 
