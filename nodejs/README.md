@@ -33,6 +33,11 @@ Para entender el proceso que sigue esta aplicación puedes ver esta explicación
 >
 > <a id="1">1</a>: Cómo abrir la terminal: en Windows ([Git Bash](https://www.youtube.com/watch?v=rWboGsc6CqI)), en Mac  ([Terminal](https://www.youtube.com/watch?v=zw7Nd67_aFw)) o en Linux ([Terminal](https://www.youtube.com/watch?v=7Kvgbu61jFg))
 
+## Explicación en vídeo
+
+[![Obtener y renovar un token de ArcGIS con NodeJS
+](https://i.ytimg.com/vi/Drg4zOICsK8/hqdefault.jpg)](https://www.youtube.com/watch?v=Drg4zOICsK8)
+
 ## Dudas
 
 Si tienes alguna duda no dudes en [abrir un issue](https://github.com/esri-es/arcgis-oauth-samples/issues/new) en el repositorio y preguntarla.
