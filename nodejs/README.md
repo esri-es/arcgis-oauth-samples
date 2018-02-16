@@ -29,7 +29,9 @@ Para entender el proceso que sigue esta aplicación puedes ver esta explicación
 
 
 
-<a id="1">Nota 1</a>: [Git Bash](https://www.youtube.com/watch?v=rWboGsc6CqI) (Windows), [Terminal](https://www.youtube.com/watch?v=zw7Nd67_aFw) (Mac), [Terminal](https://www.youtube.com/watch?v=7Kvgbu61jFg) (Linux)
+> **Notas**:
+>
+> <a id="1">1</a>: [Git Bash](https://www.youtube.com/watch?v=rWboGsc6CqI) (Windows), [Terminal](https://www.youtube.com/watch?v=zw7Nd67_aFw) (Mac), [Terminal](https://www.youtube.com/watch?v=7Kvgbu61jFg) (Linux)
 
 ## Dudas
 
