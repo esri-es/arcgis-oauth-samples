@@ -5,3 +5,7 @@ El código de esta sección está extraído del ejemplo [Acceder a items de ArcG
 En el siguiente vídeo de 12 minutos se explica cómo funciona:
 
 [![Pantallazo de: "How to" autenticar en ArcGIS usando la API de JavaScript & oAuth](https://i.ytimg.com/vi/Q9toWrNfeUo/hqdefault.jpg)](https://www.youtube.com/watch?v=Q9toWrNfeUo)
+
+## Dudas
+
+Si tienes alguna duda no dudes en [abrir un issue](https://github.com/esri-es/arcgis-oauth-samples/issues/new) en el repositorio y preguntarla.
