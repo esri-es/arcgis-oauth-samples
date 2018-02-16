@@ -11,9 +11,9 @@ require([
         userIdElement = document.getElementById('userId'),
         info = new OAuthInfo({
             // Swap this ID out with registered application ID
-            appId: 'n341qfK541sfm3i7',
+            appId: 'mRZlrGqWd5ezpVFM',
             // Uncomment the next line and update if using your own portal
-            // portalUrl: 'https://<host>:<port>/arcgis'
+            // portalUrl: 'https://<host>:<port>/arcgis' | default: https://www.arcgis.com
             // Uncomment the next line to prevent the user's signed in state from being shared with other apps on the same domain with the same authNamespace value.
             // authNamespace: 'portal_oauth_inline',
             popup: false
