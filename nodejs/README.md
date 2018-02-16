@@ -27,11 +27,11 @@ Para entender el proceso que sigue esta aplicación puedes ver esta explicación
 
 **Paso 8:** Abre tu navegador y escribe: `http://localhost:3000/`, y ya estarás listo para probar la aplicación
 
-
+---
 
 > **Notas**:
 >
-> <a id="1">1</a>: [Git Bash](https://www.youtube.com/watch?v=rWboGsc6CqI) (Windows), [Terminal](https://www.youtube.com/watch?v=zw7Nd67_aFw) (Mac), [Terminal](https://www.youtube.com/watch?v=7Kvgbu61jFg) (Linux)
+> <a id="1">1</a>: Cómo abrir la terminal: en Windows ([Git Bash](https://www.youtube.com/watch?v=rWboGsc6CqI)), en Mac  ([Terminal](https://www.youtube.com/watch?v=zw7Nd67_aFw)) o en Linux ([Terminal](https://www.youtube.com/watch?v=7Kvgbu61jFg))
 
 ## Dudas
 
